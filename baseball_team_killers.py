@@ -52,4 +52,6 @@ with col2:
     st.subheader("Career tOPS+ Leaders Against the "+option)
     st.table(tops_data[['Player Name','tOPS+','AB']])
 
-st.caption('www.github.com/kennethrmiller')
+st.caption('All data from pybaseball and Baseball Reference.')
+st.caption('https://github.com/jldbc/pybaseball')
+st.caption('https://www.baseball-reference.com/')
