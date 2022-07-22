@@ -3,12 +3,12 @@ import pandas as pd
 import altair as alt
 from datetime import date
 
-color_dict = {'Los Angeles Dodgers':'#002f6c','San Francisco Giants':'#fa4616','San Diego Padres':'#4d3d36','Arizona Diamondbacks':'#a71930','Colorado Rockies':'#33006F'
-              ,'Chicago Cubs':'#002f6c','Cincinnati Reds':'#d50032','St. Louis Cardinals':'#ba0c2f','Milwaukee Brewers':'#13294b','Pittsburgh Pirates':'#ffc72c'
-              ,'New York Mets':'#fc4c02','Philadelphia Phillies':'#ba0c2f','Miami Marlins':'#00a3e0','Atlanta Braves':'#002855','Washington Nationals':'#ba122b'
+color_dict = {'Los Angeles Dodgers':'#005A9C','San Francisco Giants':'#fa4616','San Diego Padres':'#4d3d36','Arizona Diamondbacks':'#a71930','Colorado Rockies':'#33006F'
+              ,'Chicago Cubs':'#0E3386','Cincinnati Reds':'#C6011F','St. Louis Cardinals':'#ba0c2f','Milwaukee Brewers':'#12284B','Pittsburgh Pirates':'#ffc72c'
+              ,'New York Mets':'#FF5910','Philadelphia Phillies':'#ba0c2f','Miami Marlins':'#00a3e0','Atlanta Braves':'#CE1141','Washington Nationals':'#ba122b'
               ,'Seattle Mariners':'#00685e','Oakland Athletics':'#003831','Houston Astros':'#002d62','Los Angeles Angels':'#ba0021','Texas Rangers':'#003278'
-              ,'Chicago White Sox':'#27251f','Cleveland Guardians':'#0f223e','Detroit Tigers':'#0c2340','Minnesota Twins':'#0c2341','Kansas City Royals':'#004687'
-              ,'Boston Red Sox':'#c8102e','Tampa Bay Rays':'#8fbce6','New York Yankees':'#162546','Toronto Blue Jays':'#134a8e','Baltimore Orioles':'#fc4c02'
+              ,'Chicago White Sox':'#27251f','Cleveland Guardians':'#00385D','Detroit Tigers':'#0C2340','Minnesota Twins':'#002B5C','Kansas City Royals':'#004687'
+              ,'Boston Red Sox':'#c8102e','Tampa Bay Rays':'#8fbce6','New York Yankees':'#0C2340','Toronto Blue Jays':'#134a8e','Baltimore Orioles':'#fc4c02'
             }
 
 baseball_data = pd.read_csv('baseball_team_killers_clean2.csv')
