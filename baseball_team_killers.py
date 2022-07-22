@@ -45,11 +45,11 @@ hr_data = chart_data.sort_values(by='HR',ascending=False).reset_index()
 tops_data = chart_data.sort_values(by='tOPS+',ascending=False).reset_index()
 
 with col1:
-    st.subheader("Career HR Leaders Against the "+option)
+    st.subheader("HR Leaders Against the "+option)
     st.table(hr_data[['Player Name','HR','AB']])
 
 with col2:
-    st.subheader("Career tOPS+ Leaders Against the "+option)
+    st.subheader("tOPS+ Leaders Against the "+option)
     st.table(tops_data[['Player Name','tOPS+','AB']])
 
 st.caption('All data from pybaseball and Baseball Reference.')
