@@ -39,6 +39,11 @@ c = alt.Chart(chart_data,title="Top Player tOPS+ & HR Splits (min 100 AB) vs. th
 
 st.altair_chart(c,use_container_width=True)
 
+with st.expander('See tOPS+ definition:'):
+    st.write('''
+        tOPS+: tOPS+ shows how well the player did for that split compared with their own overall performance. 
+        A tOPS+ of 100 means the player performed in line with their own typical production.
+    ''')
 col1, col2 = st.columns(2)
 
 hr_data = chart_data.sort_values(by='HR',ascending=False).reset_index()
